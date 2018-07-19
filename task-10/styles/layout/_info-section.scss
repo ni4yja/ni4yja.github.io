@@ -1,0 +1,23 @@
+.three-columns {
+    padding: 2em 0;
+    @media (min-width: $md-landscape) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.three-columns .content-tab {
+    padding-bottom: 0.4em;
+    @media (min-width: $md-landscape) {
+        max-width: 32%;
+    }
+    @media (min-width: $desktop) {
+        max-width: 270px;
+    }
+}
+
+.three-columns .upper-header {
+    @media (min-width: $tablet) {
+        margin-bottom: 2em;
+    }
+}

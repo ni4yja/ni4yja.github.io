@@ -1,0 +1,84 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header-container,
+.section-container {
+    padding: 0 2em;
+    @media (min-width: $desktop) {
+        width: 900px;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+.blockquote {
+    padding-left: 30px;
+    line-height: 1.4;
+    color: $darkgray;
+    position: relative;
+    &::before {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 100%;
+        background: $darkgray;
+        position: absolute;
+        left: 0;
+    }
+    @media (min-width: $md-landscape) {
+        max-width: 400px;
+    }
+    @media (min-width: $tablet) {
+        margin-bottom: 1em;
+    }
+}
+
+.textblock {
+    line-height: 1.5;
+    color: $regular-text;
+
+}
+
+.dots {
+    display: flex;
+    justify-content: space-between;
+    width: 34px;
+}
+
+.dots-item {
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: $silver;
+}
+
+.read-more {
+    display: block;
+    padding-left: 44px;
+    @include link-style-clear;
+    color: $indianred;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    &::before {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 2px;
+        background: $indianred;
+        position: absolute;
+        left: 0;
+        top: calc(50% - 1px);
+    }
+}
+
+.read-more:hover {
+    padding-left: 74px;
+    ransition: transform 0.25s ease-out;
+}
+
+.read-more:hover::before {
+    width: 60px;
+    ransition: transform 0.25s ease-out;
+}

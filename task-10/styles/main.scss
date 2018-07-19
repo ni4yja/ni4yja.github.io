@@ -1,0 +1,25 @@
+/*7-1 pattern */
+@charset 'UTF-8';
+
+// 1. Configuration and helpers
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// 2. Vendors
+@import 'vendor/normalize';
+
+// 3. Base stuff
+@import 'base/typography';
+@import 'base/common';
+
+// 4. Layout-related sections
+@import 'layout/header';
+@import 'layout/top-section';
+@import 'layout/info-section';
+@import 'layout/nike-section';
+@import 'layout/health-section';
+
+// 5. Components
+@import 'components/button';
+@import 'components/input';
+@import 'components/navigation';

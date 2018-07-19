@@ -1,0 +1,62 @@
+.nike-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    @media (min-width: $desktop) {
+        background: none;
+        height: auto;
+        margin-bottom: 40px;
+    }
+}
+
+.two-columns {
+    padding: 2em;
+    background: rgba($purewhite, 0.7);
+    @media (min-width: $desktop) {
+        padding: 0;
+        background: none;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.two-columns .regular-header {
+    text-transform: capitalize;
+}
+
+.two-columns .blockquote {
+    color: $regular-text;
+    @media (min-width: $desktop) {
+        color: $darkgray;
+        margin-bottom: 2em;
+    }
+}
+
+.two-columns .content-tab {
+    @media (min-width: $desktop) {
+        width: calc(100% - 510px);
+        margin-right: 110px;
+    }
+}
+
+.two-columns .image-tab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: url(../img/preview.jpg) no-repeat;
+    background-size: cover;
+    @media (min-width: $sm-landscape) {
+        background-position: 100% 50%;
+    }
+    @media (min-width: $desktop) {
+        position: relative;
+        width: 400px;
+        height: 600px;
+    }
+}

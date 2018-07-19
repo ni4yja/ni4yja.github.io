@@ -1,0 +1,39 @@
+.health-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (min-width: $desktop) {
+        height: 730px;
+        background: url(../img/runners.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+.health-section .section-container {
+    padding: 3em 2em;
+    @media (min-width: $desktop) {
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.health-section .content-tab {
+    @media (min-width: $desktop) {
+        width: 450px;
+    }
+}
+
+.health-section .regular-header {
+    @media (min-width: $desktop) {
+        color: $purewhite;
+    }
+}
+
+.health-section .blockquote {
+    @media (min-width: $desktop) {
+        color: $purewhite;
+        margin-bottom: 2em;
+    }
+}

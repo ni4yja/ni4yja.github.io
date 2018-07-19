@@ -1,0 +1,23 @@
+.search {
+    width: 100%;
+    line-height: 1.6;
+    border: none;
+    border-bottom: 1px solid $search-line;
+    background: none;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    color: $pureblack;
+    &:focus,
+    &:active {
+        border-color: $pureblack;
+    }
+    &::placeholder {
+        font-family: "Roboto", sans-serif;
+        font-size: 1em;
+        color: $search-text;
+    }
+    @media (min-width: $sm-landscape) {
+        width: auto;
+    }
+}

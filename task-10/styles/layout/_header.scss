@@ -1,0 +1,18 @@
+.site-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+    @media (min-width: $tablet) {
+        height: 10vh;
+    }
+}
+
+.header-container {
+    padding: 1em 2em;
+    @media (min-width: $sm-landscape) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

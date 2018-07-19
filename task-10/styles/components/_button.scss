@@ -1,0 +1,15 @@
+.button {
+    @include link-style-clear;
+    display: inline-block;
+    padding: 12px 15px;
+    border: 1px solid $indianred;
+    text-transform: uppercase;
+    color: $purewhite;
+    background: $indianred;
+    cursor: pointer;
+
+    &:hover {
+        color: $heighlight-text;
+        background: transparent;
+    }
+}

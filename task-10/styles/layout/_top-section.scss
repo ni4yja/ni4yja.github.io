@@ -1,0 +1,41 @@
+.top-section {
+    height: 80vh;
+    overflow: hidden;
+    border-bottom: 1px solid $section-breaker;
+    @media (min-width: $mobile) and  (orientation: portrait) {
+        background: url(../img/watches.jpg) no-repeat;
+        background-size: contain;
+        background-position: 45vw 45vh;
+    }
+    @media (min-width: $md-landscape) {
+        background: url(../img/watches.jpg) no-repeat;
+        background-size: contain;
+        background-position: 75vw 15vh;
+    }
+    @media (min-width: $tablet) {
+        display: flex;
+        align-items: center;
+        height: 90vh;
+        background-position: 65vw 15vh;
+    }
+    @media (min-width: $desktop) {
+        background-position: 75vw 0;
+    }
+}
+
+.top-section .content-tab {
+    margin-top: 3em;
+    @media (min-width: $sm-landscape) {
+        margin-top: 1em;
+    }
+}
+
+.top-section .blockquote {
+    margin-bottom: 2em;
+    @media (min-width: $sm-landscape) {
+        margin-bottom: 1em;
+    }
+    @media (min-width: $md-landscape) {
+        margin-bottom: 2em;
+    }
+}
