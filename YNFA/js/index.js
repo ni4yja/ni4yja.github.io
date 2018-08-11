@@ -20,7 +20,7 @@ var features = new Swiper('.swiper-container', {
  	}
 });
 
-var names = ['Interview: Loris Karius', 'Interview: Sadio Mané', 'Interview: Mohamed Salah'];
+var names = ['Interview: Dejan Lovren', 'Interview: Roberto Firmino', 'Interview: Mohamed Salah'];
 
 var players = new Swiper('.player-item', {
 	slidesPerView: 1,
@@ -28,7 +28,7 @@ var players = new Swiper('.player-item', {
 			el: '.player-list',
 			clickable: true,
 			renderBullet: function (index, className) {
-				return '<div class="' + className + '">' + (names[index]) + 
+				return '<div class="' + className + '">' + (names[index]) +
 				'</div>';
 			},
 		}
