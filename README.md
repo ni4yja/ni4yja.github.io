@@ -1,4 +1,4 @@
-# Hello! My name is Liuba. I am a frontend developer and tech writer based in [Kharkiv](https://en.wikipedia.org/wiki/Kharkiv), Ukraine. 
+# Hello! My name is Liuba. I am a markup developer and tech writer based in [Kharkiv](https://en.wikipedia.org/wiki/Kharkiv), Ukraine. 
 
 ### Here I collect some of my learning projects:
 - [Apple Watch Site](https://ni4yja.github.io/apple-watch/) - a first milestone task in my [Front Loops Challenge](https://s.codepen.io/ni4yja/debug/zjEzWw/gareYZpoExWr).
