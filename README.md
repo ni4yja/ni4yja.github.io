@@ -6,6 +6,7 @@
 - [Todo List on Angular](https://ni4yja.github.io/todo-list/) - my first Angular application made during [NGTalks](https://medium.com/@ni4yja/ngtalk-in-kharkiv-1c2bd96282b6).
 - [A Trello Clone](https://ni4yja.github.io/a-trello-clone/) - my first Vue application made while going through [vuemastery course](https://medium.com/@ni4yja/learning-vue-on-vue-mastery-206a6fa3f11a).
 - [Weather App](https://ni4yja.github.io/weather-app/) - my Vue app made thanks to [WWCode Kyiv mentoring program](https://ni4yja.medium.com/weather-app-on-vue-js-1062d52af624).
+- [Photo App](https://ni4yja.github.io/photo-app/#/) - Vue.js application made using **Unsplash API** and **Chart.js**.
 
 ## Follow me:
 - on [twitter](https://twitter.com/ni4yja)
