@@ -5,6 +5,7 @@
 - [You'll Never Flex Alone](https://ni4yja.github.io/YNFA/) - a Liverpool FC fan pages built on [flexboxes](https://medium.com/@ni4yja/youll-never-flex-alone-4f7379db1943). 
 - [Todo List on Angular](https://ni4yja.github.io/todo-list/) - my first Angular application made during [NGTalks](https://medium.com/@ni4yja/ngtalk-in-kharkiv-1c2bd96282b6).
 - [A Trello Clone](https://ni4yja.github.io/a-trello-clone/) - my first Vue application made while going through [vuemastery course](https://medium.com/@ni4yja/learning-vue-on-vue-mastery-206a6fa3f11a).
+- [Poetry Filter](https://ni4yja.github.io/poetry-filter/) - a small Vue.js app to practice filtering and searching based on [Faraday Academy stream](https://www.youtube.com/watch?v=sJR3pVx-M58).
 
 ### My personal Vue.js projects:
 - [Weather App](https://ni4yja.github.io/weather-app/) - my Vue app made thanks to [WWCode Kyiv mentoring program](https://ni4yja.medium.com/weather-app-on-vue-js-1062d52af624).
