@@ -11,6 +11,7 @@
 - [Weather App](https://ni4yja.github.io/weather-app/) - my Vue app made thanks to [WWCode Kyiv mentoring program](https://ni4yja.medium.com/weather-app-on-vue-js-1062d52af624).
 - [Photo App](https://ni4yja.github.io/photo-app/) - Vue.js application made using [**Unsplash API** and **Chart.js**](https://bit.ly/2XOqfRT).
 - [Running Planner](https://ni4yja.github.io/running-planner/) - Vue.js application made with [**Vuex**](https://ni4yja.medium.com/running-planner-vue-js-application-4784f0560ec4).
+- [Podcast Dashboard](https://ni4yja.github.io/podcast-dashboard/) - Nuxt.js + Vuetify app. [Animation made with GSAP](https://ni4yja.medium.com/nav-links-animation-made-with-nuxt-js-and-gsap-a00adbe8b29e).
 
 ## Follow me:
 - on [twitter](https://twitter.com/ni4yja)
